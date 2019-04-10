@@ -1,0 +1,71 @@
+.toolbar {
+	position: fixed;
+	width: 100%;
+    height: 70px;
+	top:0;
+    left:0;
+    z-index: 5;
+    /* background-color: rgba(190, 5, 5, 0.685); */
+    transition: background-color 0.3s ease;
+}
+
+.background{
+    background-color: #212921;
+}
+
+.toolbar p{
+    color: aliceblue;
+}
+
+.content{
+    height: 100%;
+    margin: auto;
+    max-width: 85%;
+    /* background-color: aqua; */
+    vertical-align: middle;
+}
+
+.menuRight{
+    float: right;
+    width: 500px;
+}
+
+.menuAction{
+    position: sticky;
+    float: right; 
+    padding: 18px 0;
+}
+
+.menuIcon{
+    float: right;
+    margin-left: 15px;
+}
+
+.menuButton{
+    float: left;
+}
+
+@media screen and (min-width: 771px){
+    .menuIcon{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 770px){
+    .DesktopOnly{
+        display: none;
+    }
+    .menuRight{
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .menuButton{
+        display: none;
+    }
+    
+    .menuRight{
+        width: 50px;
+    }
+}

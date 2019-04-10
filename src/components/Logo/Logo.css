@@ -1,0 +1,10 @@
+.logo{
+    padding: 8px 0;
+    height: 60px;
+    float: left;
+    /* background-color: blue; */
+}
+
+.logo img{
+    height: 100%;
+}

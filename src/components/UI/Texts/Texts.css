@@ -1,0 +1,60 @@
+.SectionTitle{
+    margin: auto;
+    text-align: 'center';
+    font-size: 28px;
+	font-family: 'Candara Bold', 'Candara Regular', 'Candara';
+	font-weight: 700;
+    color: #333;
+    max-width: 700px;
+}
+
+.SectionDescription{
+    margin: auto;
+    margin-bottom: 30px;
+    text-align: 'center';
+    font-size: 22px;
+	font-family: 'Candara';
+	font-weight: 400;
+    color: #333;
+    max-width: 680px;
+}
+
+@media screen and (max-width: 770px){
+    .SectionTitle{
+        font-size: 22px;
+    }
+
+    .SectionDescription{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .SectionTitle{
+        font-size: 20px;
+    }
+
+    .SectionDescription{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .SectionTitle{
+        font-size: 17px;
+    }
+
+    .SectionDescription{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 350px){
+    .SectionTitle{
+        font-size: 14px;
+    }
+
+    .SectionDescription{
+        font-size: 12px;
+    }
+}

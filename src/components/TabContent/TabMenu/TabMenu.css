@@ -1,0 +1,43 @@
+.TabMenu{
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 810px){
+    .TabMenu{
+        max-width: 440px;
+    }
+}
+
+@media screen and (max-width: 720px){
+    .TabMenu{
+        max-width: 380px;
+    }
+}
+
+@media screen and (max-width: 510px){
+    .TabMenu{
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .TabMenu{
+        max-width: 240px;
+    }
+}
+
+@media screen and (max-width: 300px){
+    .TabMenu{
+        max-width: 200px;
+    }
+}
+
+@media screen and (max-width: 260px){
+    .TabMenu{
+        max-width: 160px;
+    }
+}

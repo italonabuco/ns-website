@@ -1,0 +1,88 @@
+.TabItem{
+    width: 350px;
+    /* max-width: 500px;
+    min-width: 500px; */
+    margin: 0px;
+    margin-top: 0px;
+    background-color: #ffffff;
+    border: 1px solid #d9d9d9;
+    box-sizing: border-box;
+    border-radius: 2%;
+}
+
+.ItemContent{
+    margin: 10px;
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ItemIcon{
+    /* width: 50px;
+    height: 50px; */
+    flex: 0 1 25%;
+    height: 70px;
+    position: relative;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+    padding-top: 20px;
+    display: flex;
+}
+
+.ItemIcon svg{
+    transition: all 0.3s ease;
+}
+
+.TabItem:hover{
+    background-color: #77BC63;
+    border-color: #66B450;
+}
+
+.TabItem:hover p, .TabItem:hover h3{
+    color: #fff;
+}
+
+.TabItem:hover .ItemIcon svg{
+    color: #fff;
+    /* font-size: 5em; */
+    transform: scale(1.2);
+}
+
+.ItemText{
+    min-height: 20px;
+    flex: 0 1 75%;
+}
+
+@media screen and (max-width: 410px){
+    .ItemIcon svg{
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 350px){
+    .ItemIcon svg{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 285px){
+
+    .ItemContent{
+        padding: 0px;
+    }
+    
+    .ItemText{
+        flex: 0 1 100%;
+    }
+
+    .ItemIcon{
+        flex: 0 1 100%;
+        margin: auto;
+        padding: 0px;
+    }
+
+    .ItemIcon svg{
+        margin: auto;
+        font-size: 60px;
+    }
+}

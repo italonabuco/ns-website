@@ -1,0 +1,35 @@
+.NavigationItem a{
+    font-size: 14px;
+    font-family: 'Segoe UI Negrito', 'Segoe UI Normal', 'Segoe UI';
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding: 25px 12px;
+    box-sizing: border-box;
+    z-index: 100;
+}
+
+.NavigationItem a:visited{
+    color: white;
+}
+
+.NavigationItem a:active,
+.NavigationItem a:hover,
+.NavigationItem a.active{
+    color: #46ac16
+}
+
+
+@media screen and (min-width: 771px){
+    .NavigationItem {
+        float: left;
+    }
+}
+
+@media screen and (max-width: 499px){
+    .NavigationItem {
+        display: block;
+    }
+}

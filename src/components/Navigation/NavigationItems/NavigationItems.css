@@ -1,0 +1,15 @@
+.NavigationItems{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    float: right;
+    width: 100%;
+}
+
+@media screen and (max-width: 499px){
+    .NavigationItems{
+        float: none;
+    }
+}
+

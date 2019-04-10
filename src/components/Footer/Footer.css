@@ -1,0 +1,66 @@
+.Footer{
+    background-color: #212921;
+    width: 100%;
+    color: #699861;
+}
+
+
+.FooterInfo{
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    padding: 25px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.FooterInfoItem{
+    flex: 0 1 25%;
+    height: 100%;
+    font-family: 'Candara Bold', 'Candara Regular', 'Candara';
+    text-transform: uppercase;
+}
+
+.FooterInfoItem p:hover{
+    color: #51ca1a;
+}
+
+.TextNone{
+    text-transform: none;
+}
+
+.NumberNone{
+    font-family: 'Arial';
+}
+
+.FooterInfoItem p{
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.FooterDivider{
+    width: 100%;
+    background-color: #699861;
+    height: 1px;
+}
+
+.FooterCopyRight{
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1020px){
+    .FooterInfoItem{
+        flex: 0 1 50%;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .FooterInfoItem{
+        flex: 0 1 100%;
+    }
+}

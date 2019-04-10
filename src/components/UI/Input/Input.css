@@ -1,0 +1,35 @@
+.Field{
+    width: 100%;
+    margin: 5px auto;
+    border: 1px solid #ddd;
+    font-size: 20px;
+    font-family: 'Candara';
+    font-weight: 400;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    color: #333;
+    border-radius: 2%;
+    
+}
+
+.Field:focus{
+    border-color: #52ac1a
+}
+
+.Invalid, .Invalid:focus{
+    border-color: red;
+}
+
+.Field::placeholder{
+    color: #aaa;
+}
+
+.FieldTextArea{
+    resize:none;
+}
+
+@media screen and (max-width: 319px){
+    .Field{
+        font-size: 17px;
+    }
+}
