@@ -1,3 +1,9 @@
-This project was built to used as a project for Italo Nabuco's Portfolio.
+# Nabuco Software Website
 
-It can be accessed by [http://nabucosoftware.com/](http://nabucosoftware.com/)  
+Static Website built to demonstrate knowledge about ReactJS, HTML and CSS.
+
+## Author
+
+#### Italo Nabuco<br>Full Stack Developer<br>
+italonabuco@hotmail.com<br>
+Whatsapp: +55 (99) 8189-4692<br>
