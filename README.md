@@ -1,6 +1,6 @@
 # Nabuco Software Website
 
-ReactJS Project to demonstrate knowledge about Jest and Enzyme.
+Static Website built to demonstrate knowledge about ReactJS, HTML and CSS.
 
 ## Author
 
