@@ -6,7 +6,6 @@ Static Website built to demonstrate knowledge about ReactJS, HTML and CSS.
 
 #### Italo Nabuco<br>Full Stack Developer<br>
 italonabuco@hotmail.com<br>
-Whatsapp: +55 (99) 8189-4692<br>
 
 ## Image Samples
 
